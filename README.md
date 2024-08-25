@@ -3,7 +3,7 @@ This is my personal deployment of DNSMASQ, which I use as a container on my Macb
 
 ### Config File Parameters:
 
-**port=53:**
+**port=53:**  
 **Description:** Sets the port on which dnsmasq listens for DNS requests. The default port for DNS is 53.
 
 **domain-needed:**
