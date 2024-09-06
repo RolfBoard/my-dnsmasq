@@ -4,6 +4,7 @@ services:
     container_name: my-dnsmasq
     volumes:
       - ./dnsmasq.conf:/etc/dnsmasq.conf
+      - ./log:/var/log
     ports:
       - "53:53/tcp"
       - "53:53/udp"
